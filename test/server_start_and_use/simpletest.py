@@ -1,11 +1,11 @@
-import sharedmemory 
+import custommanager 
 
-server = sharedmemory.start_server()
+server = custommanager.start_server()
 
-manager1 = sharedmemory.get_manager()
-manager2 = sharedmemory.get_manager()
-manager3 = sharedmemory.get_manager()
-manager4 = sharedmemory.get_manager()
+manager1 = custommanager.get_manager()
+manager2 = custommanager.get_manager()
+manager3 = custommanager.get_manager()
+manager4 = custommanager.get_manager()
 
 m1_dict1 = manager1.dict1()
 m2_dict1 = manager2.dict1()

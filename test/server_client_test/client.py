@@ -1,7 +1,7 @@
-import sharedmemory 
+import custommanager 
 import random
 
-manager = sharedmemory.get_manager()
+manager = custommanager.get_manager()
 
 dict1 = manager.dict1()
 
